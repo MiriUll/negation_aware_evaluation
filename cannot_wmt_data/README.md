@@ -1,6 +1,6 @@
 ## CANNOT + WMT dataset
 
-This data is based on the [CANNOT](https://github.com/dmlls/cannot-dataset/) dataset and data from the [WMT Metrics Shared Task](https://wmt-metrics-task.github.io/) years 2015-2017.  
+This data is based on the [CANNOT](https://github.com/dmlls/cannot-dataset/releases/v1.0) dataset and data from the [WMT Metrics Shared Task](https://wmt-metrics-task.github.io/) years 2015-2017.  
 The source of the candidate-reference pair is indicated by the source column.
 
 ### Data distribution
