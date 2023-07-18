@@ -1,0 +1,13 @@
+datasets~=2.10.0
+numpy~=1.23.5
+torch~=2.0.1
+tqdm~=4.65.0
+scipy~=1.10.1
+scikit-learn~=1.2.2
+pandas~=2.0.1
+requests~=2.30.0
+setuptools~=60.2.0
+tensorflow~=2.12.0
+sentencepiece~=0.1.99
+sentence-transformers~=2.2.2
+transformers~=4.25.1
