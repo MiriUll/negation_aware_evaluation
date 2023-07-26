@@ -6,7 +6,7 @@ from sentence_transformers import SentenceTransformer, util
 import torch
 
 print("* Load CANNOT WMT test data")
-cannot_wmt_test = pd.read_csv("/content/cannot_wmt_test.csv")
+cannot_wmt_test = pd.read_csv("cannot_wmt_data/cannot_wmt_test.csv")
 
 print("* Load NegMPNnet ")
 finetuned_model = SentenceTransformer("tum-nlp/NegMPNet")
