@@ -30,7 +30,8 @@ Afterwards, we converted the fine-tuned model to a PyTorch transformer model usi
 ## Re-creating values from the paper
 We evaluated our models un multiple benchmark datasets.
 ### CANNOT-WMT test data
-Our CANNOT-WMT data has a held-out test set to examine negation understanding of evaluation metrics. To evaluate our models on this dataset, run ```python eval_cannot_wmt.py```.
+Our CANNOT-WMT data has a held-out test set to examine negation understanding of evaluation metrics. To evaluate our models on this dataset, run ```python eval_cannot_wmt.py```.  
+Please refer to the [CANNOT Github repository](https://github.com/dmlls/cannot-dataset/) for further details about the dataset and its creation.
 ### Massive Text Embedding benchmark (MTEB)
 To evaluate NegMPNet on MTEB, first you need to install [mteb](https://github.com/embeddings-benchmark/mteb):
 ```
