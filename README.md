@@ -66,3 +66,13 @@ python eval_demetr_negMPNet.py -d path_to_demetr_dataset
 This will print the score of the baseline model as well but will only store the NegMPNet results into ```demetr_scores_negMPNet.json```.
 ## Citation
 Please cite our INLG 2023 paper, if you use our repository, models or data:  
+```bibtex
+@misc{anschütz2023correct,
+      title={This is not correct! Negation-aware Evaluation of Language Generation Systems}, 
+      author={Miriam Anschütz and Diego Miguel Lozano and Georg Groh},
+      year={2023},
+      eprint={2307.13989},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
